@@ -1,6 +1,6 @@
 
 :root {/*variaveis no css*/
-    --color-background: #F0F0F7;
+    --color-background: #efefff;
     --color-primary-lighter: #9871F5;
     --color-primary-light: #916BEA;
     --color-primary: #8257E5;
@@ -35,7 +35,7 @@ html, body{
 }
 /*Alinhamento do backgroud*/
 body{
-    background-color: var( --color-background);
+    background-color: var(--color-background);
     display: flex; 
     align-items: center;
     align-content: center;
