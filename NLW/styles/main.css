@@ -20,13 +20,17 @@
     --color-box-footer: #FAFAFC;
     --color-small-info: #C1BCCC;
 
-    /*tamanho das fontes*/
+    /*tamanho das fontes: 16px = 100% = 1rem*/
+    
+    /* rem = unidade de medida relativa ao padrão definido no font-size que foi descrito no root*/
+
     font-size: 60%; /* controle das medidas rem */
 }
 
+/*Quando se refere com " * " quer dizer que vai ser aplicado a tudo*/
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0;/*Coloca uma borda no elemento definido*/
+    padding: 0;/*Coloca uma margem entre o elemento e sua borda*/
     box-sizing: border-box;
 }
 
@@ -35,7 +39,7 @@ html, body{
 }
 /*Alinhamento do backgroud*/
 body{
-    background-color: var(--color-background);
+    background-color: var(--color-background);    /* Cor do fundo */
     display: flex; 
     align-items: center;
     align-content: center;
